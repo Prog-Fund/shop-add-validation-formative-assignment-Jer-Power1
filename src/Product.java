@@ -1,7 +1,6 @@
 /**
  * A scaled down version of a Product class.
  *
- * @author Mairead Meagher, Siobhan Drohan
  */
 public class Product {
 
