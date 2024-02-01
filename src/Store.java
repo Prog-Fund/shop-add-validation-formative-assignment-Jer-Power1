@@ -1,9 +1,4 @@
-/**
- * The store class saves all the entered products into a primitive array.
- *
- * @author Siobhan Drohan, Mairead Meagher
- * @version 2.2
- */
+
 
 public class Store {
 
@@ -22,12 +17,7 @@ public class Store {
         return total == 0;
     }
 
-    /**
-     * If there is space available, add the product object, passed as a parameter, to the array.
-     *
-     * @param product Product object to be added to the array.
-     * @return Status of the add; true for success, false for fail.
-     */
+
     public boolean add(Product product) {
         if (isFull()) {
             return false;
